@@ -61,14 +61,15 @@ padding: 10px;
 .search {
   display: inline-block;
   vertical-align: middle;
-  margin: auto;
+  
 }
 
 .search input {
   height: 30px;
-  padding: 3px;
+  padding: 3px 3px 3px 10px;
   width: 900px;
   background-color: rgb(31, 82, 111);
+  color: white;
   border: 1px solid grey;
   font-size: 16px;
   
@@ -77,16 +78,25 @@ padding: 10px;
 .search-btn {
   display: inline-block;
   vertical-align: middle;
-  height: 36px;
-  width: 36px;
-  border: 1px solid grey;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  background-color: rgb(31, 82, 111);
+  margin-left: -5px;
     
 }
 
+button {
+  border: 1px solid grey;
+}
+
+i {
+  color: white;
+  background-color: rgb(31, 82, 111);
+  border: none;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 12px;
+}
 
 .login {
   display:inline-block;
@@ -161,7 +171,7 @@ h2 {
 }
 
 .orgs-text ul {
-  margin: 20px;
+  margin: 30px;
 }
 
 .list {
@@ -172,9 +182,10 @@ h2 {
   background-color: rgb(203, 56, 55);
   color: white;
   border-radius: 28px;
-  height: 30px;
   padding: 10px 20px;
   font-size: 16px;
+  display: block;
+  width: 125px;
 }
 
 .learn-more {
